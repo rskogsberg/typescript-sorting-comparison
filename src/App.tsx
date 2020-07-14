@@ -1,25 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import BubbleSort from './components/SortingVisualizer/SortingVisualizer';
+import Navigation from './components/Navbar/Navigation';
+
+import { BubbleProvider } from './context/BubbleContext';
+import { InsertionProvider } from './context/InsertionContext';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import { MergeProvider } from './context/MergeContext';
+
+library.add(faBars, faSun, faMoon)
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BubbleProvider>
+    <InsertionProvider>
+    <MergeProvider>
+      <Navigation></Navigation>
+      <BubbleSort></BubbleSort>
+    </MergeProvider>
+    </InsertionProvider>
+    </BubbleProvider>
   );
 }
 

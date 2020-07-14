@@ -1,0 +1,23 @@
+$light-purple: #BB86FC;
+$lighter-grey: #262626;
+$white: rgba(255, 255, 255, 0.87);
+$darker-grey: #1D1D1D;
+
+
+.light {
+  --nav-color: #674AEE;
+  --color-text: #DBCAFA;
+  --bar-color: #674AEE;
+  --background: #FFFFFF;
+  --array-card: #FFFFFF;
+  --hover: #FFFFFF;
+}
+
+.dark {
+  --nav-color: #{$lighter-grey};
+  --color-text: #{$white};
+  --bar-color: #{$light-purple};
+  --background: #{$darker-grey};
+  --array-card: #{$lighter-grey};
+  --hover: #674AEE;
+}

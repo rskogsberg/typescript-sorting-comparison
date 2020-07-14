@@ -1,0 +1,28 @@
+.array-container {
+  height: calc(100vh - 65px);
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.array-card {
+  height: 80%;
+  width: 0.67*100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--array-card);
+  border-radius: 10px;
+  padding: 0px 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.array-bar {
+  width: 25px;
+  margin: 0 1px;
+  margin-bottom: 2px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
