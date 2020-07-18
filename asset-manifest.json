@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typescript-sorting-comparison/static/css/main.8402de5f.chunk.css",
+    "main.js": "/typescript-sorting-comparison/static/js/main.76a64f9b.chunk.js",
+    "main.js.map": "/typescript-sorting-comparison/static/js/main.76a64f9b.chunk.js.map",
+    "runtime-main.js": "/typescript-sorting-comparison/static/js/runtime-main.edcc1fa0.js",
+    "runtime-main.js.map": "/typescript-sorting-comparison/static/js/runtime-main.edcc1fa0.js.map",
+    "static/js/2.f39af3a9.chunk.js": "/typescript-sorting-comparison/static/js/2.f39af3a9.chunk.js",
+    "static/js/2.f39af3a9.chunk.js.map": "/typescript-sorting-comparison/static/js/2.f39af3a9.chunk.js.map",
+    "index.html": "/typescript-sorting-comparison/index.html",
+    "precache-manifest.5017a6d44ff4f7d3118fd9b417c7e40a.js": "/typescript-sorting-comparison/precache-manifest.5017a6d44ff4f7d3118fd9b417c7e40a.js",
+    "service-worker.js": "/typescript-sorting-comparison/service-worker.js",
+    "static/css/main.8402de5f.chunk.css.map": "/typescript-sorting-comparison/static/css/main.8402de5f.chunk.css.map",
+    "static/js/2.f39af3a9.chunk.js.LICENSE.txt": "/typescript-sorting-comparison/static/js/2.f39af3a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.edcc1fa0.js",
+    "static/js/2.f39af3a9.chunk.js",
+    "static/css/main.8402de5f.chunk.css",
+    "static/js/main.76a64f9b.chunk.js"
+  ]
+}
